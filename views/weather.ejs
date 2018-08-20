@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="app.css">
+
+<form>
+    <center>
+        <h1> Tania's Weather App </h1>
+        <p>
+            <strong>Country:</strong>
+            <%= weatherInfo.sys.country %>
+        </p>
+        <p>
+            <strong>City:</strong>
+            <%= weatherInfo.name %>
+        </p>
+        <p>
+            <strong>Temperature:</strong>
+            <%= weatherInfo.main.temp %> Celsius
+        </p>
+        <p>
+            <strong>Min Temperature:</strong>
+            <%= weatherInfo.main.temp_min %> Celsius
+        </p>
+        <p>
+            <strong>Max Temperature:</strong>
+            <%= weatherInfo.main.temp_max %> Celsius
+        </p>
+
+        <a href="/">Check Another Town!</a>
+        
+    </center>
+</form>
+

@@ -1,0 +1,25 @@
+body{
+    background-image: url("clouds_elias.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;   
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    padding-top: 200px;
+    font-size: 2em
+}
+
+h1{
+    color: rgb(39, 65, 100);
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+
+a{
+    color: rgb(39, 65, 100);
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+
+
+     
+
