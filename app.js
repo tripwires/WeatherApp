@@ -15,7 +15,7 @@ app.get("/", function (req, res) { //is going to be used to get the info from th
 //api related
 app.get("/weather", function (req, res) { //this route path will match req to root /weather
     var search = (req.query.search); //we get the info from the form = via the name input tag there
-    var url = "http://api.openweathermap.org/data/2.5/weather?q=" + search + "&APPID=c599717a1133754dd8c523e64440fffd&units=metric";
+    var url = "http://api.openweathermap.org/data/2.5/weather?q=" + search + "&APPID=&units=metric";
     //request the api
     request(url, function (error, response, body) {
         if (!error && response.statusCode == 200) { //if no error and the page loads fine we continue...
